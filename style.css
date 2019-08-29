@@ -1,0 +1,138 @@
+.container_1{
+    width: 60%;
+    margin: 10px auto;
+  
+}
+#text{
+    width: 100%;
+    min-height: 250px;
+    background-color: rgba(236, 231, 231, 0.58);
+    border: 1px solid rgb(177, 170, 170);
+    border-radius: 1%;
+    padding: 20px;
+
+    
+}
+#add, #save{
+    width: 70px;
+    height: 35px;
+} 
+#backgroundColor{
+    width: 148px;
+    height: 35px;  
+}
+#colorOfText{
+    width: 110px;
+    height: 35px;  
+}
+#createList{
+    width: 110px;
+    height: 35px;
+}
+#createTable{
+    width: 115px;
+    height: 35px;
+}
+
+#add_table_list{
+    display: none;
+}
+#style_table{
+    display:none;
+}
+#style_list{
+    display:none;
+}
+#show{
+    display: none;
+    width: 85%;
+    height: 270px;
+    margin: 10px;
+    
+}
+#area{
+   width: 100%;
+   height: 80%;
+}
+
+#style_box{
+    display: none;
+    width: 65%;
+    height: 90%;
+    margin: 2px 0px 5px 20px;   
+}
+#style_box p{
+    margin: 6px 0px;
+}
+.btn-warning, .btn-primary {
+    width: 100px !important;
+    
+}
+.btn{
+    width: 100%;
+    margin: 0px auto;
+}
+#text_area{
+    width: 100%;
+    min-height: 250px;
+    background-color: rgba(236, 231, 231, 0.58);
+    border: 1px solid rgb(177, 170, 170);
+    border-radius: 1%;
+    position: relative;
+     
+}
+
+
+#color_box{
+    width: 210px;
+    height: 210px;
+    position: absolute;
+    top: 40px;
+    left: 586px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: none;
+}
+.color_box_click{
+    display: flex;
+}
+
+#btn_color_red, #btn_color_blue, #btn_color_green, #btn_color_yellow, #btn_color_hotpink,
+#btn_color_white, #btn_color_blueviolet, #btn_color_dodgerblue, #btn_color_black{
+    width: 70px;
+    height: 70px;
+    position: relative;
+    border: none;
+    display: block;
+    padding: 0px;
+    outline: none;
+    user-select: none;
+}
+#btn_color_red{
+    background-color: red;
+}
+#btn_color_blue{
+    background-color: blue;
+}
+#btn_color_green{
+    background-color: green;
+}
+#btn_color_black{
+    background-color: black;
+}
+#btn_color_yellow{
+    background-color: yellow;
+}
+#btn_color_hotpink{
+    background-color: hotpink;
+}
+#btn_color_white{
+    background-color: white;
+}
+#btn_color_blueviolet{
+    background-color: blueviolet;
+}
+#btn_color_dodgerblue{
+    background-color: dodgerblue;
+}
